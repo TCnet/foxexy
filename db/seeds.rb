@@ -13,13 +13,15 @@ User.create!(name:  "nbtcnet",
              activated: true,
              activated_at: Time.zone.now)
 
-User.create!(name:  "xiangzi",
-             email: "1160167250@qq.com",
+User.create!(name:  "foxexy",
+             email: "670316658@qq.com",
              password:              "111111",
              password_confirmation: "111111",
              admin: true,
              activated: true,
              activated_at: Time.zone.now)
+
+
 
 
 users = User.order(:created_at).take(2)
